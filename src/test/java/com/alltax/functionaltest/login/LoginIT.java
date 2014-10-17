@@ -31,7 +31,7 @@ public class LoginIT {
 	@Test
 	public void efetuaLoginInvalido() throws Exception {
 		loginPOWrapper.getPageObject()
-				.typeAndEnter("xxxx", "yyyy", "Português");
+				.typeAndEnter("ssss", "yyyy", "Português");
 		loginPOWrapper.getPageObject().incorrectUserAndPassword("Português");
 	}
 
